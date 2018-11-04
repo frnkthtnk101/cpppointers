@@ -22,6 +22,7 @@ int main (){
     cout << "good, the new length is "<<length<<endl;
     int cheese[length];
     initialize_int_array(cheese, length);
+    //make sure its acctually putting 1's in the array.
     for(int i =0; i<length;i++)
         cout << cheese[i];
     return 0;

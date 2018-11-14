@@ -37,20 +37,20 @@ bool to_int(string s_length, int* length){
 }
 
 void initialize_int_array(int *i_array, int length){
-    int limit = length - 1;
+    int limit = length - 9;
     int j = 0;
     for (; j < limit; j+=10)
     {
         i_array[j] = 1;
-        i_array[j+1] = 1;
-        i_array[j+2] = 1;
-        i_array[j+3] = 1;
-        i_array[j+4] = 1;
-        i_array[j+5] = 1;
-        i_array[j+6] = 1;
-        i_array[j+7] = 1;
-        i_array[j+8] = 1;
-        i_array[j+9] = 1;
+        i_array[j+1] = 2;
+        i_array[j+2] = 3;
+        i_array[j+3] = 4;
+        i_array[j+4] = 5;
+        i_array[j+5] = 6;
+        i_array[j+6] = 7;
+        i_array[j+7] = 8;
+        i_array[j+8] = 9;
+        i_array[j+9] = 10;
     }
     for (; j < length; j++){
         i_array[j] = 1;
